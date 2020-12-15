@@ -1,0 +1,261 @@
+body {
+    background-image: url('../slike/poyadinaM.jpg');
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.roditelj {
+
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+#divh1 {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    align-self: center;
+    background-color: rgb(206, 138, 79);
+    border: goldenrod 7px double;
+    opacity: 0.8;
+
+}
+
+h1 {
+    color: rgb(60, 48, 46);
+    text-align: center;
+    font-size: 2.5em;
+    margin-left: 10px;
+}
+
+
+
+.gornjimeni {
+    background-color: rgb(206, 138, 79);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    opacity: 0.9;
+    padding: 20px 20px;
+}
+
+.gornjimeni a {
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.gornjimeni a:hover {
+    background-color: rgb(71, 126, 109);
+    color: white;
+}
+
+.gornjimeni a.active {
+    background-color: rgb(110, 98, 118);
+    color: white;
+}
+
+#velikiDiv1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    background-image: url('../slike/245567.jpg');
+
+
+    border: goldenrod 7px double;
+}
+
+#slika1 {
+    height: auto;
+    width: 54%;
+    order: 2;
+    border: rgb(108, 74, 58) double 5px;
+}
+
+#divParagraf1 {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    order: 1;
+
+}
+
+h3 {
+    text-align: center;
+    color: rgb(168, 130, 2);
+    font-size: 1.7em;
+    background-color: transparent;
+}
+
+#paragraf1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.2em;
+    margin-bottom: 10%;
+    margin-left: 5px;
+}
+
+#divslika2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    /* margin: auto; */
+
+}
+
+#slika2 {
+    height: auto;
+    width: 50%;
+    margin-bottom: 40px;
+    box-shadow: 2.5px 5px 5px;
+    border: goldenrod 7px double;
+
+
+}
+
+
+#velikiDiv2 {
+    display: flex;
+    flex-direction: row;
+    background-image: url('../slike/245567.jpg');
+
+    border: goldenrod 7px double;
+    margin-bottom: 30px;
+}
+
+#divTabela1 {
+    display: flex;
+    flex-direction: column;
+    order: 1;
+    margin-top: 50px;
+    margin: auto;
+    width: 30%;
+
+}
+
+#divTabela2 {
+    display: flex;
+    flex-direction: column;
+    order: 3;
+    margin-top: 50px;
+    margin: auto;
+    width: 30%;
+
+}
+
+#divJelovnik {
+    display: flex;
+    flex-direction: column;
+    order: 2;
+    align-items: center;
+    margin: auto;
+    width: 30%;
+}
+
+#link1 {
+    width: 30%;
+}
+
+#slikameni {
+    width: 100%;
+}
+
+#paragraf2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 1.2em;
+    text-align: center;
+
+}
+
+
+#tabela1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: rgb(206, 138, 79);
+    opacity: 0.8;
+    margin: auto;
+
+}
+
+#tabela2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-color: rgb(206, 138, 79);
+    opacity: 0.8;
+    margin: auto;
+}
+
+
+#divLista {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../slike/245567.jpg');
+    margin-bottom: 20px;
+    border: goldenrod 7px double;
+
+}
+
+#divliste {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+#lista1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#lista2 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+
+}
+
+li {
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+
+}
+
+
+
+#centar {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: center;
+    background-color: transparent;
+    order: 1;
+}
+
+#link2 {
+    order: 2;
+    height: auto;
+    width: 25%;
+    border: rgb(108, 74, 58) double 5px;
+    margin: auto;
+}
+
+#slikacentar {
+    width: 100%;
+
+
+}

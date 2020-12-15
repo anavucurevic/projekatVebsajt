@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="slike/icona.png">
+
+    <title>Zbunjeni brucoš</title>
+    <link rel="stylesheet" type="text/css" href="stajl/index.css">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+    <div class="parent">
+
+        <div id="divNaslov">
+            <h1>Zbunjeni brucoš</h1>
+        </div>
+
+        <div id="meni">
+
+            <!-- <form id="forma">
+
+                <label id="labela" for="meniLabela"> GLAVNI MENI</label>
+                <div style="width:200px">
+                    <select name="glavnimeni" id="gmeni">
+                        <option value="opcija1"> <a href="https://www.w3schools.com/css/css_dropdowns.asp">Menza</a>
+                        </option>
+                        <option value="opcija2"> Bus plus i gradski prevoz </option>
+                        <option value="opcija3">Biblioteke i čitaonice</option>
+
+                    </select>
+                </div>
+-->
+
+
+            <a href="busplus.html"> BusPlus <img src="slike/autobus_200x200.png" alt="autobus" id="autobus"></a>
+            <a href="menza.html">Menza <img src="slike/jelo.png" alt="jelo" id="jelo"></a>
+            <a href="bibilioteka.html ">Čitaonice i bibilioteke<img src="slike/knjige.png" alt="knjige" id="knjige"></a>
+
+        </div>
+
+        <div id="paragraf">
+            <p>Zbunjeni brucoš je namenjen studentima prve godine svih fakulteta Univerziteta u Beogradu. Svrha sajta je
+                da
+                brucošima pruži osnovne informacije o studentskim menzama, ID karticama, gradskom prevozu, bibiliotekama
+                i čitaonicama. Na našem sajtu možeš prodaći podatke o vađenju i upotrebi studentkih kartica, BusPlus
+                kartica kao i
+                informacije o radu čitaonica i o članarinama i članskim kartama za biliblioteke. Ukoliko imaš još neka
+                pitanja slobodno
+                nam se obrati preko forme na dnu stranice.</p>
+
+            <input class="dugmad" type="button" value="Univerzitet u Beogradu" onclick="idi()" />
+
+        </div>
+
+
+        <div id="velikiDiv1">
+            <div id="upitnik">
+                <p>Da li Vam je naša stranica bila od pomoći?</p>
+                <form id="radio">
+                    <input type="radio" name="radioPolje" value="poljeDa">DA
+                    <br>
+                    <br>
+                    <input type="radio" name="radioPolje" value="poljeNe">NE
+                    <input class="dugmad" type="button" id="dugme" value="prikaziRezultate">
+
+
+
+                </form>
+
+            </div>
+
+
+            <div id="galerija" class="accordion">
+
+                <h3 class="nas">Obavezni predmeti</h3>
+                <p>Predmeti koji su nastavnim planom i programom fakulteta propisani kao obavezni tj. oni ispiti koje
+                    student mora odslušati i položiti kako bi dobio zvanje visokoškolske ustanove na kojoj studira.
+                    Obavezni predmeti postoje tokom svih godina osnovnih, diplomskih (master) i doktorskih studija. Ovo
+                    su predmeti koji će te učiniti kvalifikovanim za oblast koju si odlučio da izučavaš.</p>
+                <h3 class="nas">Izborni predmeti</h3>
+                <p>U pitanju su predmeti koje student može izabrati iz grupe ponuđenih predmeta, a koji su važna dopuna
+                    obaveznim predmetima. Oni pružaju mogućnost studentu da se uže specijalizuje za određenu oblast
+                    interesovanja. Nekada su izborni predmet jezici koje student želi da izučava, a nekada su usko
+                    stručni i usmereni su na stručnije usavršavanje studenta. Izborni predmeti mogu biti dostupni svim
+                    studentima, ili mogu biti ograničeni na broj dostupnih mesta za pohađanje i realizaciju nastave iz
+                    ovih predmeta.</p>
+
+            </div>
+        </div>
+
+        <div id="velikiDiv2">
+            <div id="pitanje">
+
+
+                <h4>OVDE MOŽETE POSTAVITI VAŠE PITANJE</h4>
+
+                <form>
+
+                    <textarea name="tekstArea" id="tekstpolje" cols="40" rows="5"></textarea>
+                    <input class="dugmad" class="klikni" id="dposalji" type="submit" value="pošalji">
+
+                    <input class="dugmad" id="dobrisi" type="reset" value="obriši">
+
+                </form>
+
+            </div>
+
+
+            <div id="datum">
+                <form name="form1" id="ime">
+                    Unesite Vaše ime:<input type="text" name="name" />
+                    <input class="dugmad" type="button" onclick="istampaj()" value="istampaj" />
+                </form>
+                <p id="danas">Današnji datum je:</p>
+
+                <span id="vreme"> </span>
+
+            </div>
+
+        </div>
+
+        <div id="validacija">
+
+            <p>Prijavite se za naša obaveštenja</p>
+            <form name="forma" class="klasa">
+                <label>Unesite ime i prezime</label>
+                <input id="imeiprezime" type="text">
+                <label>Unesite email</label>
+                <input id="email" type="text">
+                <label>Unesite broj indeksa
+                    ( u formatu 0123/2020)
+                </label>
+                <input id="indeks" type="text">
+
+
+                <input class="dugmence" id="posalji" type="submit" value="pošalji">
+
+
+                <input id="obrisi" type="reset" value="obriši">
+
+            </form>
+
+        </div>
+    </div>
+
+    <script src="script/skript.js"></script>
+</body>
+
+</html>

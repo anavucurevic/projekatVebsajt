@@ -1,0 +1,189 @@
+body {
+    background-image: url('../slike/pozadinapoc.jpg');
+    padding: 10px;
+}
+
+.roditelj div {
+    color: black;
+    margin: 5px;
+
+}
+
+
+#prviPasus {
+
+    font-size: 1.6em;
+    background-color: rgb(58, 67, 100);
+    opacity: 0, 9;
+    border: rgb(215, 165, 129) 5px groove;
+    color: rgb(215, 165, 129);
+    opacity: 0, 9;
+
+}
+
+
+
+#prviNaslov {
+    border: rgb(215, 165, 129) 6px groove;
+    color: rgb(215, 165, 129);
+    text-align: center;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(58, 67, 100);
+    opacity: 0.9;
+}
+
+
+h2 {
+
+    font-size: 2em;
+}
+
+
+
+
+#fotoLista {
+
+
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#biblioteke {
+
+    padding: 15px;
+    width: 50%;
+    float: left;
+    background-color: rgb(245, 190, 146);
+    border: rgb(58, 67, 100) 7px double;
+    box-shadow: 2.5px 5px 5px;
+    color: rgb(58, 67, 100);
+    font-size: 1em;
+    opacity: 0.9;
+
+}
+
+
+
+ol {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    text-align: left;
+    color: rgb(58, 67, 100);
+}
+
+
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    list-style-type: disc;
+    text-align: left;
+    color: black;
+
+}
+
+
+
+
+
+#fotografije {
+
+
+
+    max-width: 45%;
+    height: auto;
+
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: normal;
+
+}
+
+
+
+
+
+
+
+#radioTabele {
+
+
+
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    background-color: rgb(58, 67, 100);
+    opacity: 0.9;
+    border: rgb(215, 165, 129) 6px groove;
+
+    font-size: 1.3em;
+
+
+}
+
+#naslov2 {
+    color: rgb(215, 165, 129);
+
+}
+
+#radio {
+
+    color: rgb(215, 165, 129);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#tabele {
+    width: 50%;
+
+
+}
+
+th {
+    background-color: rgb(215, 165, 129);
+
+
+}
+
+
+
+
+
+
+
+.gornjimeni {
+    background-color: rgb(58, 67, 100);
+    border: rgb(245, 190, 146) 5px groove;
+    overflow: hidden;
+    opacity: 0.9;
+    flex-direction: row;
+
+
+}
+
+
+.gornjimeni a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+}
+
+
+.gornjimeni a:hover {
+    background-color: rgb(132, 85, 61);
+    color: white;
+}
+
+
+.gornjimeni a.active {
+    background-color: #c1946a;
+    color: white;
+}
