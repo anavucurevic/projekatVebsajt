@@ -55,21 +55,7 @@ body {
 
 }
 
-#gmeni {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.2em;
-    font-weight: 800;
-    display: flex;
-    margin: auto;
-    height: 100px;
-    width: 300px;
-    align-self: center;
-    color: rgb(10, 58, 70);
-    text-align: center;
 
-
-    background-image: url('../slike/pozadina1.jpg');
-}
 
 option {
 

@@ -35,11 +35,12 @@ function istampaj(){
 
 
 
-var danas=new Date(); 
-var dan=danas.getDay();
-var mesec= danas.getMonth();
-var godina = danas.getFullYear();
-document.getElementById('vreme').innerHTML=dan+"."+mesec+"."+godina+".";
+        var danas=new Date(); 
+        console.log(danas);
+        var dan=danas.getDate();
+        var mesec= danas.getMonth() + 1;
+        var godina = danas.getFullYear();
+        document.getElementById('vreme').innerHTML=dan+"."+mesec+"."+godina+".";
 
 
 function daLiJeBroj(c){
